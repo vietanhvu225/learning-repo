@@ -1,5 +1,87 @@
 schema_version: 1
 repositories:
+  - canonical_id: github.com/anishfn/shapeshift
+    repo: anishfn/shapeshift
+    provider: github
+    url: https://github.com/anishfn/shapeshift
+    aliases:
+      - https://github.com/anishfn/shapeshift.git
+      - git@github.com:anishfn/shapeshift.git
+    upstream: null
+    source_path: sources/github/anishfn/shapeshift
+    analysis_path: analyses/github/anishfn--shapeshift/README.md
+    analyzed_commit: 5e24166dcbde6e794f0bd5b1b4bd395aaee5fc19
+    analyzed_at: 2026-09-28
+    analysis_version: 1
+    status: analyzed
+    adoption: experiment
+    confidence: medium
+    tags:
+      - workflow-automation
+      - local-first
+  - canonical_id: github.com/awlevin/typesafe-computer-use
+    repo: awlevin/typesafe-computer-use
+    provider: github
+    url: https://github.com/awlevin/typesafe-computer-use
+    aliases:
+      - https://github.com/awlevin/typesafe-computer-use.git
+      - git@github.com:awlevin/typesafe-computer-use.git
+    upstream: null
+    source_path: sources/github/awlevin/typesafe-computer-use
+    analysis_path: analyses/github/awlevin--typesafe-computer-use/README.md
+    analyzed_commit: 2fc5efaaab692122df23e312fe9ba6e87753b3fc
+    analyzed_at: 2026-09-28
+    analysis_version: 1
+    status: analyzed
+    adoption: experiment
+    confidence: high
+    tags:
+      - ai-agents
+      - workflow-automation
+      - evidence-grounding
+      - evals
+  - canonical_id: github.com/chetaslua/jevmeter
+    repo: chetaslua/jevmeter
+    provider: github
+    url: https://github.com/chetaslua/jevmeter
+    aliases:
+      - https://github.com/chetaslua/jevmeter.git
+      - git@github.com:chetaslua/jevmeter.git
+    upstream: null
+    source_path: sources/github/chetaslua/jevmeter
+    analysis_path: analyses/github/chetaslua--jevmeter/README.md
+    analyzed_commit: cbf8e117b5b8835e3294c3a8ee652c7dfa737a9a
+    analyzed_at: 2026-09-28
+    analysis_version: 1
+    status: analyzed
+    adoption: experiment
+    confidence: high
+    tags:
+      - evals
+      - evidence-grounding
+      - video-analysis
+      - workflow-automation
+  - canonical_id: github.com/jkudish/jev-mcp
+    repo: jkudish/jev-mcp
+    provider: github
+    url: https://github.com/jkudish/jev-mcp
+    aliases:
+      - https://github.com/jkudish/jev-mcp.git
+      - git@github.com:jkudish/jev-mcp.git
+    upstream: null
+    source_path: sources/github/jkudish/jev-mcp
+    analysis_path: analyses/github/jkudish--jev-mcp/README.md
+    analyzed_commit: 417acfa1ea84d0cccae935007bfd16970d676816
+    analyzed_at: 2026-09-28
+    analysis_version: 1
+    status: analyzed
+    adoption: experiment
+    confidence: high
+    tags:
+      - ai-agents
+      - evidence-grounding
+      - retrieval
+      - workflow-automation
   - canonical_id: github.com/vietanhvu225/watch-skill
     repo: vietanhvu225/watch-skill
     provider: github

@@ -4,4 +4,6 @@
 
 | Repository | Status | Adoption | Tags |
 |---|---|---|---|
+| [github.com/awlevin/typesafe-computer-use](../../analyses/github/awlevin--typesafe-computer-use/README.md) | analyzed | experiment | ai-agents, workflow-automation, evidence-grounding, evals |
+| [github.com/jkudish/jev-mcp](../../analyses/github/jkudish--jev-mcp/README.md) | analyzed | experiment | ai-agents, evidence-grounding, retrieval, workflow-automation |
 | [github.com/vietanhvu225/watch-skill](../../analyses/github/vietanhvu225--watch-skill/README.md) | analyzed | experiment | ai-agents, video-analysis, evidence-grounding, local-first, retrieval, agent-memory, evals, workflow-automation |

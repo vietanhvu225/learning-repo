@@ -4,4 +4,5 @@
 
 | Repository | Status | Adoption | Tags |
 |---|---|---|---|
+| [github.com/anishfn/shapeshift](../../analyses/github/anishfn--shapeshift/README.md) | analyzed | experiment | workflow-automation, local-first |
 | [github.com/vietanhvu225/watch-skill](../../analyses/github/vietanhvu225--watch-skill/README.md) | analyzed | experiment | ai-agents, video-analysis, evidence-grounding, local-first, retrieval, agent-memory, evals, workflow-automation |

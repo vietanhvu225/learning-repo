@@ -4,4 +4,5 @@
 
 | Repository | Status | Adoption | Tags |
 |---|---|---|---|
+| [github.com/chetaslua/jevmeter](../../analyses/github/chetaslua--jevmeter/README.md) | analyzed | experiment | evals, evidence-grounding, video-analysis, workflow-automation |
 | [github.com/vietanhvu225/watch-skill](../../analyses/github/vietanhvu225--watch-skill/README.md) | analyzed | experiment | ai-agents, video-analysis, evidence-grounding, local-first, retrieval, agent-memory, evals, workflow-automation |
