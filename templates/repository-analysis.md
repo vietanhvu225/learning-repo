@@ -48,7 +48,7 @@ Những cơ chế được hỗ trợ bởi bằng chứng rõ ràng.
 
 Rủi ro kỹ thuật, bảo mật, privacy, vận hành và maintenance.
 
-## Ý tưởng áp dụng
+## Recommendations
 
 Ý tưởng cụ thể có thể đưa vào workflow, kèm chi phí và trade-off.
 
@@ -65,4 +65,3 @@ Chọn một trong `adopt-now`, `experiment`, `watch`, hoặc `reject` và giả
 ## Hạn chế của phân tích
 
 Những gì chưa đọc, chưa chạy hoặc chưa xác minh.
-

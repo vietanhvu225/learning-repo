@@ -53,6 +53,10 @@ def normalize_repo_reference(value: str | Path) -> RepoIdentity:
     parts = [part for part in clean_path.split("/") if part]
     if len(parts) < 2 or any(part in {".", ".."} for part in parts):
         raise IdentityError(f"Repository URL must include owner and repository: {reference}")
+    if provider == "github" and len(parts) != 2:
+        raise IdentityError(f"GitHub reference must point to a repository root: {reference}")
+    if provider == "gitlab" and "-" in parts:
+        raise IdentityError(f"GitLab reference must not be a browser subpage: {reference}")
 
     normalized_parts = [part.lower() for part in parts]
     owner = "/".join(normalized_parts[:-1])
@@ -89,4 +93,3 @@ def _split_remote(reference: str) -> tuple[str, str]:
     if parsed.scheme not in {"http", "https", "ssh", "git"} or not parsed.hostname:
         raise IdentityError(f"Unsupported repository reference: {reference}")
     return parsed.hostname, parsed.path
-

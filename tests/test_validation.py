@@ -17,7 +17,7 @@ def _entry(analysis_path: str = ANALYSIS_PATH.as_posix()) -> dict[str, object]:
         "repo": "owner/repository",
         "provider": "github",
         "url": "https://github.com/owner/repository",
-        "aliases": ["git@github.com:owner/repository.git"],
+        "aliases": [],
         "upstream": None,
         "source_path": "sources/github/owner/repository",
         "analysis_path": analysis_path,
@@ -156,5 +156,3 @@ def test_unregistered_analysis_is_reported(tmp_path: Path) -> None:
     _make_library(tmp_path, entries=[])
 
     assert "analysis.unregistered" in _codes(tmp_path)
-
-
