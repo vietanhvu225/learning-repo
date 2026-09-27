@@ -1,0 +1,26 @@
+# Local repository cache: keep only its policy document.
+sources/*
+!sources/README.md
+
+# Agent execution scratch space.
+.superpowers/
+
+# Python.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Secrets and local configuration.
+.env
+.env.*
+!.env.example
+
+# Temporary generated files.
+*.tmp
+*.temp
+.repo-learning-tmp/
+

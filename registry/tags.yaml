@@ -1,0 +1,19 @@
+schema_version: 1
+tags:
+  agent-memory:
+    description: Persistent memory, lessons, or reusable agent knowledge.
+  ai-agents:
+    description: Architectures and workflows for autonomous or assisted AI agents.
+  evals:
+    description: Repeatable evaluation, regression, and quality measurement practices.
+  evidence-grounding:
+    description: Claims tied to inspectable sources, citations, or verification steps.
+  local-first:
+    description: Workflows that prefer local processing, storage, and user control.
+  retrieval:
+    description: Search, indexing, ranking, and evidence retrieval mechanisms.
+  video-analysis:
+    description: Video acquisition, transcription, perception, or question answering.
+  workflow-automation:
+    description: Deterministic automation of multi-step engineering or knowledge workflows.
+
