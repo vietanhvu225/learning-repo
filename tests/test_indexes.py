@@ -116,4 +116,3 @@ def test_write_indexes_does_not_rewrite_unchanged_content(tmp_path: Path) -> Non
     write_index_documents(tmp_path, build_index_documents(tmp_path))
 
     assert target.stat().st_mtime == historical_time
-

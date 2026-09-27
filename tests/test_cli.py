@@ -92,4 +92,3 @@ def test_generate_indexes_refuses_to_write_invalid_library(
     assert result == 1
     assert index.read_text(encoding="utf-8") == "sentinel\n"
     assert "Index generation refused" in capsys.readouterr().out
-

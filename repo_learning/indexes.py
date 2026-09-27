@@ -143,4 +143,3 @@ def _render_repository_table(
 
 def _cell(value: object) -> str:
     return str(value).replace("|", "\\|").replace("\n", " ")
-

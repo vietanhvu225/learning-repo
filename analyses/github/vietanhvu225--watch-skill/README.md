@@ -374,5 +374,3 @@ Không nên bắt đầu bằng SQLite/vector DB: với vài chục repo, Markdo
 - Không đọc `.env`; file này được ignore theo `.gitignore` dòng 12–19.
 - Không đánh giá chất lượng thực tế của model/OCR/transcription trên video mẫu.
 - Một phần tài liệu trong fork có ngày tương lai theo clock hiện tại của workspace; báo cáo giữ nguyên metadata Git và không suy đoán thêm.
-
-

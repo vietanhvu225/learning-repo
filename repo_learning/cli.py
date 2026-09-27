@@ -47,4 +47,3 @@ def _print_issues(root: Path, issues: list[Issue]) -> None:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
