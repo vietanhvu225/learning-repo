@@ -123,15 +123,15 @@ Ví dụ:
 
 ```yaml
 repositories:
-  - id: github.com/owner/repository
+  - canonical_id: github.com/owner/repository
+    repo: owner/repository
     provider: github
-    owner: owner
-    repository: repository
     url: https://github.com/owner/repository
     source_path: sources/github/owner/repository
     analysis_path: analyses/github/owner--repository/README.md
     analyzed_commit: abc1234
     analyzed_at: 2026-09-28
+    analysis_version: 1
     status: analyzed
     adoption: watch
     confidence: medium
@@ -250,5 +250,3 @@ Một báo cáo nên trả lời tối thiểu:
 4. Thử toàn bộ workflow với một repository mẫu.
 5. Sau khi có correction thực tế, lưu lesson theo loại lỗi như `duplicate-repo`, `marketing-as-fact`, `stale-version`, `bad-tag` hoặc `unsafe-recommendation`.
 6. Chuyển các lesson lặp lại thành eval có thể chạy lại; chưa thêm database hoặc vector search cho đến khi Markdown và `rg` không còn đáp ứng truy vấn thực tế.
-
-

@@ -1,3 +1,27 @@
 schema_version: 1
-repositories: []
-
+repositories:
+  - canonical_id: github.com/vietanhvu225/watch-skill
+    repo: vietanhvu225/watch-skill
+    provider: github
+    url: https://github.com/vietanhvu225/watch-skill
+    aliases:
+      - https://github.com/vietanhvu225/watch-skill.git
+      - git@github.com:vietanhvu225/watch-skill.git
+    upstream: https://github.com/oxbshw/watch-skill
+    source_path: sources/github/vietanhvu225/watch-skill
+    analysis_path: analyses/github/vietanhvu225--watch-skill/README.md
+    analyzed_commit: 264afc2bfe1bd4c11c8cac973f4b13016270c9a2
+    analyzed_at: 2026-09-28
+    analysis_version: 1
+    status: analyzed
+    adoption: experiment
+    confidence: high
+    tags:
+      - ai-agents
+      - video-analysis
+      - evidence-grounding
+      - local-first
+      - retrieval
+      - agent-memory
+      - evals
+      - workflow-automation
