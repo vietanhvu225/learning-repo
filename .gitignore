@@ -8,6 +8,7 @@ sources/*
 # Python.
 __pycache__/
 *.py[cod]
+*.egg-info/
 .pytest_cache/
 .coverage
 htmlcov/
@@ -23,4 +24,5 @@ venv/
 *.tmp
 *.temp
 .repo-learning-tmp/
+
 
