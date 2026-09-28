@@ -1,5 +1,48 @@
 schema_version: 1
 repositories:
+  - canonical_id: github.com/thruwire/foreman
+    repo: thruwire/foreman
+    provider: github
+    url: https://github.com/thruwire/foreman
+    aliases:
+      - https://github.com/thruwire/foreman.git
+      - git@github.com:thruwire/foreman.git
+    upstream: null
+    source_path: sources/github/thruwire/foreman
+    analysis_path: analyses/github/thruwire--foreman/README.md
+    analyzed_commit: 01dd0f1982a1c2d0d71663c1d3851badcce95d6e
+    analyzed_at: 2026-09-29
+    analysis_version: 1
+    status: analyzed
+    adoption: experiment
+    confidence: medium
+    tags:
+      - ai-agents
+      - workflow-automation
+      - evals
+      - evidence-grounding
+  - canonical_id: github.com/yeachan-heo/oh-my-claudecode
+    repo: yeachan-heo/oh-my-claudecode
+    provider: github
+    url: https://github.com/yeachan-heo/oh-my-claudecode
+    aliases:
+      - https://github.com/Yeachan-Heo/oh-my-claudecode.git
+      - git@github.com:Yeachan-Heo/oh-my-claudecode.git
+    upstream: null
+    source_path: sources/github/yeachan-heo/oh-my-claudecode
+    analysis_path: analyses/github/yeachan-heo--oh-my-claudecode/README.md
+    analyzed_commit: 9fd35ece5d6de65b511bf43b55e42c499e4fc194
+    analyzed_at: 2026-09-29
+    analysis_version: 1
+    status: analyzed
+    adoption: experiment
+    confidence: medium
+    tags:
+      - ai-agents
+      - workflow-automation
+      - agent-memory
+      - evidence-grounding
+      - evals
   - canonical_id: github.com/rocketride-org/rocketride-server
     repo: rocketride-org/rocketride-server
     provider: github

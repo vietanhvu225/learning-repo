@@ -6,3 +6,4 @@
 |---|---|---|---|
 | [github.com/rocketride-org/rocketride-server](../../analyses/github/rocketride-org--rocketride-server/README.md) | analyzed | experiment | ai-agents, workflow-automation, agent-memory, evals |
 | [github.com/vietanhvu225/watch-skill](../../analyses/github/vietanhvu225--watch-skill/README.md) | analyzed | experiment | ai-agents, video-analysis, evidence-grounding, local-first, retrieval, agent-memory, evals, workflow-automation |
+| [github.com/yeachan-heo/oh-my-claudecode](../../analyses/github/yeachan-heo--oh-my-claudecode/README.md) | analyzed | experiment | ai-agents, workflow-automation, agent-memory, evidence-grounding, evals |
