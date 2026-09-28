@@ -1,5 +1,26 @@
 schema_version: 1
 repositories:
+  - canonical_id: github.com/rocketride-org/rocketride-server
+    repo: rocketride-org/rocketride-server
+    provider: github
+    url: https://github.com/rocketride-org/rocketride-server
+    aliases:
+      - https://github.com/rocketride-org/rocketride-server.git
+      - git@github.com:rocketride-org/rocketride-server.git
+    upstream: null
+    source_path: sources/github/rocketride-org/rocketride-server
+    analysis_path: analyses/github/rocketride-org--rocketride-server/README.md
+    analyzed_commit: 5a21c9c784ebee8f09cff59cb4acfcf5dbe77465
+    analyzed_at: 2026-09-28
+    analysis_version: 1
+    status: analyzed
+    adoption: experiment
+    confidence: high
+    tags:
+      - ai-agents
+      - workflow-automation
+      - agent-memory
+      - evals
   - canonical_id: github.com/anishfn/shapeshift
     repo: anishfn/shapeshift
     provider: github
